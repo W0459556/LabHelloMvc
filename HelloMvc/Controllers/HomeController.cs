@@ -15,7 +15,14 @@ namespace HelloMvc.Controllers
 
         public IActionResult Index()
         {
-            return View();
+            var person = new Person
+            {
+                FirstName = "Elvis",
+                MiddleName = "Aaron",
+                LastName = "Presley"
+            };
+
+            return View(person);
         }
 
         public IActionResult Privacy()
