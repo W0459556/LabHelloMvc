@@ -17,8 +17,9 @@ namespace HelloMvc.Controllers
         {
             var person = new Person
             {
+                PersonID = 1,
                 FirstName = "Elvis",
-                MiddleName = "Aaron",
+                MiddleName = "Aaron", // his actual real name. fun fact. 
                 LastName = "Presley"
             };
 
